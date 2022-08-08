@@ -31,7 +31,7 @@ Table of Content:
 /*=====Color Styles By Section=====*/
 /*===== GLOBAL =====*/
 a {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 a:hover, a:focus {
@@ -39,15 +39,15 @@ a:hover, a:focus {
 }
 
 .btn-primary {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 .btn-warning {
-  background: #ff6622;
+  background: #B0D35F;
 }
 
 .btn-block {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 /*=====Header=====*/
@@ -79,7 +79,7 @@ header.row .navbar.is-scrolling .nav li a {
 }
 
 header.row .navbar.is-scrolling .nav li.active a {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 header.alt-bg .navbar-default .nav > li > a {
@@ -105,18 +105,18 @@ header.alt-bg .navbar.is-scrolling .navbar-header .navbar-toggle span {
 
 .navbar-default .nav li.active a {
   background: none;
-  color: #ff6622;
+  color: #B0D35F;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #ff6622;
+  color: #B0D35F;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #ff6622;
+  color: #B0D35F;
 }
 
 .top-banner h2 {
@@ -154,28 +154,28 @@ body.home header .navbar {
 
 /*=====The Product=====*/
 .feature-note {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 .feature-note .indicator .plus-icon:before {
-  border-color: #0084ff;
+  border-color: #B0D35F;
 }
 
 .feature-note .indicator .plus-icon:after {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 .feature-note .indicator .plus-icon .plus {
-  background: #0084ff;
+  background: #B0D35F;
   color: #fff;
 }
 
 .feature-note .feature-name:before {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 .feature-note .feature-name:after {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 /*=====How it Works=====*/
@@ -193,7 +193,7 @@ body.home header .navbar {
 
 /*=====The Benefits=====*/
 .benefit .media .media-left span {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 .benefit .media .media-body h4 {
@@ -210,7 +210,7 @@ body.home header .navbar {
 }
 
 .left-right-contents .media .media-left span {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 .left-right-contents .media .media-body h4 {
@@ -223,7 +223,7 @@ body.home header .navbar {
 
 /*=====Our Collection=====*/
 .collections .item .title {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 .collections .item .category {
@@ -231,7 +231,7 @@ body.home header .navbar {
 }
 
 .collections .item .price {
-  color: #ff6622;
+  color: #B0D35F;
 }
 
 /*=====The Watch=====*/
@@ -370,7 +370,7 @@ body.home header .navbar {
 }
 
 .newsletter-form .input-group .input-group-addon button {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 .newsletter-form .input-group .input-group-addon button:hover, .newsletter-form .input-group .input-group-addon button:focus {
@@ -408,11 +408,15 @@ footer.row .menu-rights p {
 }
 
 .footer-menu li {
-  color: #99ceff;
+  color: #d7e9af
+
+;
 }
 
 .footer-menu li a {
-  color: #99ceff;
+  color: #d7e9af
+
+;
 }
 
 .footer-menu li a:hover, .footer-menu li a:focus {
@@ -425,7 +429,9 @@ footer.row .menu-rights p {
 }
 
 .social-links ul li a {
-  background: #99ceff;
+  background: #d7e9af
+
+;
   color: #fff;
 }
 
@@ -635,7 +641,7 @@ footer.row .menu-rights p {
 }
 
 #product-imgs .carousel-indicators li.active {
-  background: #0084ff;
+  background: #B0D35F;
 }
 
 .product-desc .name {
@@ -651,7 +657,7 @@ footer.row .menu-rights p {
 }
 
 .product-desc .price {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 .product-desc .price del {
@@ -788,7 +794,7 @@ footer.row .menu-rights p {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
-  background-color: #0084ff;
+  background-color: #B0D35F;
 }
 
 /*  =========== UTILITIES =========== */
@@ -806,11 +812,11 @@ footer.row .menu-rights p {
 }
 
 .pricing .pricing__title {
-  color: #0084ff;
+  color: #B0D35F;
 }
 
 .pricing .pricing__price {
-  color: #ff6622;
+  color: #B0D35F;
 }
 
 .pricing:hover {
@@ -818,7 +824,7 @@ footer.row .menu-rights p {
 }
 
 .pricing--featured {
-  background-color: #0084ff;
+  background-color: #B0D35F;
 }
 
 .pricing--featured .pricing__title {

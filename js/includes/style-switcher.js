@@ -11,13 +11,65 @@ Surjith S M / @surjithctly
 */
 
 
-var styleSwitchCSS = '.color-picker{position:fixed;left:0;top:50%;margin-top:-175px;z-index:10}@media (max-width:767px){.color-picker{display:none}}.color-picker a{display:block;position:relative;height:50px;width:50px;padding:20px;margin-left:-30px}.color-picker a.selected,.color-picker a:hover{margin-left:0}.color-picker a:before{content:"";display:block;height:10px;width:10px;border-top-left-radius:5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;transform:rotate(-45deg);-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);background:#000;opacity:.2}.color-picker a.selected:before{background:#fff;opacity:1;-webkit-box-shadow:0 1px 0 0 rgba(50,50,50,.25);-moz-box-shadow:0 1px 0 0 rgba(50,50,50,.25);box-shadow:0 1px 0 0 rgba(50,50,50,.25)}.color_blue{background:#0084ff}.color_cyan{background:#13C7FF}.color_green{background:#2FCA2D}.color_orange{background:#f62}.color_red{background:#FF1900}.color_teal{background:#2BDCBD}.color_violet{background:#9300FF}';
+var styleSwitchCSS = `
+.color-picker{
+    position:fixed;
+    left:0;top:50%;
+    margin-top:-175px;
+    z-index:10
+}
+@media (max-width:767px){
+    .color-picker{
+        display:none
+    }
+}
+.color-picker a{
+    display:block;
+    position:relative;
+    height:50px;
+    width:150px;
+    padding:20px;
+    margin-left:-130px
+}
+.color-picker a.selected,.color-picker a:hover{
+    margin-left:0px
+}
+.color-picker a.selected:before{
+    background:#fff;
+    opacity:1;
+    -webkit-box-shadow:0 1px 0 0 rgba(50,50,50,.25);
+    -moz-box-shadow:0 1px 0 0 rgba(50,50,50,.25);
+    box-shadow:0 1px 0 0 rgba(50,50,50,.25)
+}
+.color_white{background:#dddddd}
+.color_white a{text-color: #000 !important}
+.color_blue{background:#0084ff}
+.color_blue a{text-color: #fff !important}
+.color_yellow{background:#ffd700}
+.color_yellow a{text-color: #fff !important}
+.color_green{background:#2FCA2D}
+.color_green a{text-color: #fff !important}
+.color_orange{background:#f62}
+.color_orange a{text-color: #fff !important}
+.color_red{background:#FF1900}
+.color_red a{text-color: #fff !important}
+.color_violet{background:#9300FF}
+.color_violet a{text-color: #fff !important}
+`;
 
 var styleSwitchStylesheets = '<link rel="alternate stylesheet" title="blue-orange" media="screen" href="css/themes/blue-orange.css"><link rel="alternate stylesheet" title="cyan-red" media="screen" href="css/themes/cyan-red.css"><link rel="alternate stylesheet" title="green-violet" media="screen" href="css/themes/green-violet.css"><link rel="alternate stylesheet" title="orange-blue" media="screen" href="css/themes/orange-blue.css"><link rel="alternate stylesheet" title="red-green" media="screen" href="css/themes/red-green.css"><link rel="alternate stylesheet" title="teal-magenta" media="screen" href="css/themes/teal-magenta.css"><link rel="alternate stylesheet" title="violet-green" media="screen" href="css/themes/violet-green.css">';
 
 
 
-var styleSwitchHTML = '<div class="color-picker" dir="ltr"> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'blue-orange\'); return false;" class="color_blue"></a> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'cyan-red\'); return false;" class="color_cyan"></a> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'green-violet\'); return false;" class="color_green"></a> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'orange-blue\'); return false;" class="color_orange"></a> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'red-green\'); return false;" class="color_red"></a> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'teal-magenta\'); return false;" class="color_teal"></a> <a href="javascript:void(0);" onclick="setActiveStyleSheet(\'violet-green\'); return false;" class="color_violet"></a> </div>';
+var styleSwitchHTML = `
+<div class="color-picker" dir="ltr">
+    <a href="javascript:void(0);" class="color_white">Grados 1-2-3</a> 
+    <a href="javascript:void(0);" class="color_yellow">Grados 4-5-6</a> 
+    <a href="javascript:void(0);" class="color_green">Grados 7-8-9</a> 
+    <a href="javascript:void(0);" class="color_blue">Grados 10-11-12</a> 
+    <a href="javascript:void(0);" class="color_red">Grados 13-14-15</a> 
+    <a href="javascript:void(0);" class="color_violet">Grados 16-17-18</a> 
+</div>`;
 
 $(styleSwitchHTML).appendTo("body");
 

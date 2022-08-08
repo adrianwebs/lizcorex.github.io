@@ -4,8 +4,8 @@ $poppin: 'Poppins', sans-serif;
 
 /*Color Variables*/
 
-$primary: #0084ff !default;
-$secondary: #ff6622 !default;
+$primary: #B0D35F !default;
+$secondary: #B0D35F !default;
 $white: #fff;
 $black: #000;
 $baseColor: #374048;
@@ -14,8 +14,8 @@ $darkGray: #82898f;
 $lightBluish: #c0cad0; 
 $baseLight: #e1e4e7; 
 // BRAND COLORS
-$kickstarter: #14e06e;
-$indegogo: #eb1478;
+$kickstarter: #B0D35F;
+$indegogo: #B0D35F;
 // Mixins
 @mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s) {
     transition: $property $duration $animate $delay;
